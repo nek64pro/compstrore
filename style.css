@@ -1,0 +1,106 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+  font-family: "Raleway", sans-serif;
+  background: url(https://i.pinimg.com/originals/cc/09/3e/cc093e9d78a02bc599bbcb9a151b2958.jpg);
+  padding: 100px 0;
+}
+h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.container {
+    width: 1000px;
+    min-height: 800px;
+    border:10px solid black ;
+    margin: 0 auto;
+    background-color: white;
+}
+.header {
+display: flex;
+height: 150px;
+}
+.lashes {
+  display: flex;
+  height: 100%;
+  width: 20%;
+  background: url(https://static.tildacdn.com/tild3236-6331-4331-b736-626230616530/image.png)
+   no-repeat center center / cover;
+}
+.title-block {
+position: relative;
+display: flex;
+justify-content: center-right;
+align-items: center-right;
+width: 80%;
+height: 100%;
+font-size: 30px;
+background: url(https://static.tildacdn.com/tild6261-6439-4364-a466-623430393437/image.png) 
+no-repeat center center / cover;
+color: rgb(28, 255, 7);
+margin-right: 2px;
+}
+
+.title {
+position: relative;
+z-index: 1;
+}
+.userpic {
+  display: flex;
+  height: 100%;
+  width: 20%;
+  background: url(https://static.tildacdn.com/tild3236-6331-4331-b736-626230616530/image.png)
+   no-repeat center center / cover;
+}
+.nav ul {
+  display:flex;
+  background-color: rgb(146, 106, 255);
+  margin: 10px 0;
+}
+
+.nav li a {
+  padding: 20px;
+  display: flex;
+  text-decoration: none;
+  color: rgb(19, 160, 50);
+  font-weight: bold;
+  border-right: 1px solid rgb(9, 94, 37) ;
+  transition: backgraund .3s ease;
+  
+}
+.nav li a:hover {
+  background: rgb(156, 129, 231);
+}
+.content-wrapper {
+  display: flex;
+}
+.content {
+  width: 70%;
+  padding: 20px;
+}
+.content p {
+  line-height: 30px;
+}
+
+.sidebar {
+  padding: 20px;
+  width: 30%;
+  text-align: center;
+  text-decoration: none;
+  color: rgb(19, 160, 50);
+  
+}
+
+.skills li {
+  padding: 10px 0;
+  transition: transform .5s ease;
+  cursor: pointer;
+    
+
+}
+.skills li:hover {
+  transform: translate(10px);
+  
+}
